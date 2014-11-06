@@ -1,10 +1,12 @@
 # AirStream
 
-A minimalist social network.
+A fictional minimalist social network.
 
 ## About
 
 This is an example project written to compare the strengths and weaknesses of jQuery and AngularJS, as well as reviewing migration strategies.
+
+The [jQuery](http://daniellmb.github.io/airstream/jquery) version of airstream uses [Sammy.js](http://sammyjs.org) for basic routing support, and [Mustache.js](http://mustache.github.io/) for templating. The [AngularJS](http://daniellmb.github.io/airstream/angular) version of the site provides the same functionality as the jQuery version, but only relies on the core AngularJS libraries.
 
 ## Testing
 
