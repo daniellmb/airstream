@@ -1,6 +1,6 @@
 # AirStream
 
-A simple social network.
+A minimalist social network.
 
 ## About
 
