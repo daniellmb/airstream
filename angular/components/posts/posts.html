@@ -1,0 +1,21 @@
+<ul class="feed">
+  <li ng-repeat="post in feed">
+    <div class="post-top" ng-class="{'rounded': !post.image, 'round-top': post.image}">
+      <div class="avatar pull-left">
+        <a href="#profile"><img ng-src="{{post.author.photo}}" /></a>
+      </div>
+      <div class="contents pull-left">
+        <div class="name pull-left">
+          <a href="#profile">{{post.author.name}}</a>
+        </div>
+        <div class="actions pull-right">
+          <a href="#reply" title="Reply"><span class="glyphicon glyphicon-share"></span></a>
+          <a href="#like" title="Like"><span class="glyphicon glyphicon-heart-empty"></span></a>
+          <span class="time-ago" time-ago from-time="{{post.created_at}}"></span>
+        </div>
+        <div class="message" ng-bind-html="post.content | autolink"></div>
+      </div>
+    </div>
+    <img ng-if="post.image" ng-src="{{post.image}}" class="photo round-bottom" />
+  </li>
+</ul>

@@ -1,0 +1,78 @@
+{
+    "name": "Daniel Lamb",
+    "photo": "http://gravatar.com/avatar/bf307fb81189d0a2a03820d2405d9409?s=100",
+    "about": "Senior Front-End Engineer living in Seattle, WA",
+    "site": "linkedin.com/in/daniellamb",
+    "feed": [
+        {
+            "created_at": "2014-11-06T21:27:44+0000",
+            "content": "Just finished writing a #jQuery to #AngularJS comparison and migration walkthrough for @airpair!",
+            "image": "/img/screen-shot.jpg",
+            "author": {
+                "name": "Daniel Lamb",
+                "photo": "http://gravatar.com/avatar/bf307fb81189d0a2a03820d2405d9409?s=50"
+            },
+            "source": "iOS"
+        },
+        {
+            "created_at": "2014-11-03T21:27:44+0000",
+            "content": "Going to do some technical writing about two frameworks I love #jQuery and #AngularJS! #fun",
+            "author": {
+                "name": "Daniel Lamb",
+                "photo": "http://gravatar.com/avatar/bf307fb81189d0a2a03820d2405d9409?s=50"
+            }
+        }
+    ],
+    "followers": [
+        {
+            "name": "Igor Lebovic",
+            "photo": "https://gravatar.com/avatar/7345f338d4e79f7d22dac6403beb300c?s=50",
+            "posts": 12832,
+            "followers": 18779,
+            "following": 5890,
+            "followed": true
+        },
+        {
+            "name": "Tal Gleichger",
+            "photo": "https://gravatar.com/avatar/1b3fa67a9bc040b78e53879059adcf58?s=50",
+            "posts": 43,
+            "followers": 234,
+            "following": 21,
+            "followed": false
+        },
+        {
+            "name": "Todd Motto",
+            "photo": "https://gravatar.com/avatar/b56bb22b3a4b83c6b534b4c114671380?s=50",
+            "posts": 183,
+            "followers": 847,
+            "following": 198,
+            "followed": true
+        }
+    ],
+    "following": [
+        {
+            "name": "Igor Lebovic",
+            "photo": "https://gravatar.com/avatar/7345f338d4e79f7d22dac6403beb300c?s=50",
+            "posts": 12832,
+            "followers": 18779,
+            "following": 5890,
+            "followed": true
+        },
+        {
+            "name": "Jonathon Kresner",
+            "photo": "https://gravatar.com/avatar/19183084115c4a79d34cdc3110adef37?s=50",
+            "posts": 6813,
+            "followers": 1200,
+            "following": 935,
+            "followed": true
+        },
+        {
+            "name": "Todd Motto",
+            "photo": "https://gravatar.com/avatar/b56bb22b3a4b83c6b534b4c114671380?s=50",
+            "posts": 183,
+            "followers": 847,
+            "following": 198,
+            "followed": true
+        }
+    ]
+}

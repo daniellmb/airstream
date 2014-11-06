@@ -1,0 +1,24 @@
+<header class="header home">
+    <div class="container new-message rounded">
+        <input placeholder="What's on your mind?" autofocus>
+        <ul class="hoz-list pull-left">
+            <li><a href="#add-photo" title="Add Photo"><span class="glyphicon glyphicon-picture"></span> Add Photo</a></li>
+            <li><a href="#add-video" title="Add Video"><span class="glyphicon glyphicon-facetime-video"></span> Add Video</a></li>
+        </ul>
+    </div>
+
+    <div class="list-actions">
+        <ul class="sub-nav hoz-list pull-left">
+            <li><a href="#all" class="active">All Posts</a></li>
+            <li><a href="#photos" title="Just Photos">Photos</a></li>
+            <li><a href="#photos" title="Just Videos">Videos</a></li>
+        </ul>
+
+        <div class="list-type pull-right">
+            <a href="#list" title="List"><span class="glyphicon glyphicon-th-list"></span></a>
+            <a href="#grid" title="Grid"><span class="glyphicon glyphicon-th"></span></a>
+        </div>
+    </div>
+</header>
+
+<div class="posts" ng-model="feed"></div>

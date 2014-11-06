@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Daniel Lamb">
+  <title>airstream: a simple social network</title>
+  <meta name="description" content="airstream a simple social network">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/app.css"/>
+</head>
+<body>
+<div class="contents">
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand replace" href="#" title="a simple social network">AirStream</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#profile" class="avatar">
+              <img src="http://gravatar.com/avatar/bf307fb81189d0a2a03820d2405d9409?s=30" class="dropdown-toggle">
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#profile">Profile</a></li>
+              <li><a href="#followers">Followers</a></li>
+              <li><a href="#following">Following</a></li>
+              <li><a href="#settings">Settings</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right">
+          <input type="text" class="form-control" placeholder="Search">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div role="main" class="content" id="main"></div>
+
+  <div class="footer text-center">
+    <div class="container">
+      <ul role="navigation" class="hoz-list">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#terms">Terms</a></li>
+        <li>&copy; 2014 AirStream</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- jQuery -->
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<!-- jQuery extensions -->
+<script src="../bower_components/sammy/lib/sammy.js"></script>
+<script src="../bower_components/jquery-timeago/jquery.timeago.js"></script>
+<!-- Sammy extensions -->
+<script src="../bower_components/mustache.js/mustache.js"></script>
+<script src="../bower_components/sammy/lib/plugins/sammy.mustache.js"></script>
+<!-- airstream app -->
+<script src="app.js"></script>
+<script src="plugins/autolink.js"></script>
+</body>
+</html>

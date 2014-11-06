@@ -1,0 +1,25 @@
+<ul class="feed">
+  {{#feed}}
+  <li>
+    <div class="post-top {{#image}}round-top{{/image}}{{^image}}rounded{{/image}}">
+      <div class="avatar pull-left">
+        <a href="#profile"><img src="{{author.photo}}" /></a>
+      </div>
+      <div class="contents pull-left">
+        <div class="name pull-left">
+          <a href="#profile">{{author.name}}</a>
+        </div>
+        <div class="actions pull-right">
+          <a href="#reply" title="Reply"><span class="glyphicon glyphicon-share"></span></a>
+          <a href="#like" title="Like"><span class="glyphicon glyphicon-heart-empty"></span></a>
+          <abbr class="time-ago" title="{{created_at}}"></abbr>
+        </div>
+        <div class="message">{{ content }}</div>
+      </div>
+    </div>
+    {{#image}}
+    <img src="{{image}}" class="photo round-bottom" />
+    {{/image}}
+  </li>
+  {{/feed}}
+</ul>

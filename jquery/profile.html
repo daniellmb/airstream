@@ -1,0 +1,20 @@
+<header class="header profile text-center">
+  <div class="container">
+    <img src="{{profile.photo}}" class="avatar" />
+    <h1>{{profile.name}}</h1>
+    <p>{{profile.about}}</p>
+    <p><a href="http://{{profile.site}}">{{profile.site}}</a></p>
+  </div>
+
+  <div class="profile list-actions">
+    <ul class="sub-nav hoz-list pull-left">
+      <li><a href="#profile" class="active">Daniel's Feed</a></li>
+      <li><a href="#followers">Followers</a></li>
+      <li><a href="#following">Following</a></li>
+    </ul>
+  </div>
+</header>
+
+{{#profile}}
+{{> posts}}
+{{/profile}}
